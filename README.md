@@ -39,7 +39,7 @@ Keeps latency low: the Agent just returns the answer text.
 
 ✅ Proposed Knowledge Base Structure
 
-## 📦 Project Structure
+
 ```text
 [
   {
@@ -55,6 +55,35 @@ Keeps latency low: the Agent just returns the answer text.
   },
 ]
 ```
+🧩 Rationale
+category: groups features logically, helps improve search.
+
+use_cases: directly match real user queries to relevant features.
+
+keywords: support keyword and semantic search.
+
+feature_id and feature_name: make it easy to show matched features in logs or UI
+
+✏️ 4. Agent's Core Logic & Matching Approach
+✅ Outline
+Receive the user’s plain text input.
+
+Convert the input to an embedding using a language model.
+
+Perform semantic search on the Knowledge Base to find the most relevant feature or use case.
+
+Use an LLM to generate a natural language answer based on the matched feature.
+
+Return the answer as plain text.
+
+🧩 Rationale
+Input & output as plain text keeps integration simple.
+
+Using semantic search helps understand user intent beyond keywords.
+
+Generating the answer directly (without structured output) reduces complexity if the only goal is replying.
+
+## 📦 Project Structure
 ```plaintext
 mini-project/
 ├── main.py                # main file to run
