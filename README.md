@@ -10,6 +10,6 @@ cd mini-project
 pip install -r requirements.txt
 
 #run file
-```
+```bash
 python main.py
 
