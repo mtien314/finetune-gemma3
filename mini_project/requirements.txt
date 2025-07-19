@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-huggingface
+pydantic
+pydantic-core
+pydantic-settings
+chromadb
+sentence-transformers
+langchain-google-genai
+langgraph 
+dotenv
+
