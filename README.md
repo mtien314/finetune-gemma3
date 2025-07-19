@@ -60,34 +60,34 @@ Keeps latency low: the Agent just returns the answer text.
 ]
 ```
 🧩 Rationale
+ - ** category **: groups features logically, helps improve search.
 
-category: groups features logically, helps improve search.
+ - **use_cases **: directly match real user queries to relevant features.
 
-use_cases: directly match real user queries to relevant features.
+ - ** keywords **: support keyword and semantic search.
 
-keywords: support keyword and semantic search.
-
-feature_id and feature_name: make it easy to show matched features in logs or UI
+ - ** feature_id ** and ** feature_name **: make it easy to show matched features in logs or UI
 
 ✏️ 4. Agent's Core Logic & Matching Approach
 
 ✅ Outline
-Receive the user’s plain text input.
 
-Convert the input to an embedding using a language model.
+- Receive the user’s plain text input.
 
-Perform semantic search on the Knowledge Base to find the most relevant feature or use case.
+- Convert the input to an embedding using a language model.
 
-Use an LLM to generate a natural language answer based on the matched feature.
+- Perform semantic search on the Knowledge Base to find the most relevant feature or use case.
 
-Return the answer as plain text.
+- Use an LLM to generate a natural language answer based on the matched feature.
+
+- Return the answer as plain text.
 
 🧩 Rationale
-Input & output as plain text keeps integration simple.
+- Input & output as plain text keeps integration simple.
 
-Using semantic search helps understand user intent beyond keywords.
+- Using semantic search helps understand user intent beyond keywords.
 
-Generating the answer directly (without structured output) reduces complexity if the only goal is replying.
+- Generating the answer directly (without structured output) reduces complexity if the only goal is replying.
 
 ## 📦 Project Structure
 ```plaintext
