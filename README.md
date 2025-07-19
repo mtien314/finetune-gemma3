@@ -4,12 +4,13 @@
 ```bash
 git clone https://github.com/mtien314/mini-project.git
 cd mini-project
+```
 
 ## change file file env.example -> .env
 ```bash
 pip install -r requirements.txt
-
-#run file
+```
+## run file main.py 
 ```bash
 python main.py
-
+```
