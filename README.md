@@ -6,8 +6,11 @@ git clone https://github.com/mtien314/mini-project.git
 cd mini-project
 ```
 
-change file file env.example -> .env
-# Run file requirements.txt
+### change file file env.example -> .env
+```bash
+cp .env.example .env
+```
+### Run file requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
