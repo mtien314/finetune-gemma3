@@ -1,12 +1,12 @@
 ## 🚀 Run code
 
-### 1️⃣ Clone project
+### 1Clone project
 ```bash
 git clone https://github.com/mtien314/mini-project.git
 cd mini-project
 ```
 
-### change file file env.example -> .env
+### change file file env.example to .env
 ```bash
 cp .env.example .env
 ```
