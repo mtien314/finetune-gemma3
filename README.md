@@ -2,7 +2,9 @@
 ## 📄 Design Document
 
 > Pain Point to Solution Agent
+
 > Author: MTien
+
 > Date: 2025-07-19
 
 ---
