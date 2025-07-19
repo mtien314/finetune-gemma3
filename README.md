@@ -16,6 +16,7 @@
 ```
 
 🧩 Rationale
+
 Keep the input as plain text: simple, flexible, and can work across different channels.
 
 The Agent only needs the raw user question or complaint to process and generate an answer.
@@ -23,12 +24,14 @@ The Agent only needs the raw user question or complaint to process and generate 
 Easier integration: no need to handle metadata like customer_id or channel at this stage.
 
 ## ✏️ 2. Agent Output Structure & Rationale
+
 ✅ Proposed Output Structure
 ```text
 - Potential Filum.ai Solution: "Customer Journey Experience Analysis (Insights - Experience)"
 – How it helps: Identifies friction points by analyzing feedback and operational data across the journey.
 ```
 🧩 Rationale
+
 Output as plain text keeps the system simple and easy to integrate with any front-end (web, chat, mobile).
 
 No need for structured metadata (e.g., confidence score, suggested action) if the goal is only to reply directly.
