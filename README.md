@@ -1,5 +1,5 @@
 
-## 📄 Design Document
+## 📄 Document
 
 > Pain Point to Solution Agent
 
