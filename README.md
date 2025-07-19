@@ -60,13 +60,13 @@ Keeps latency low: the Agent just returns the answer text.
 ]
 ```
 🧩 Rationale
- - ** category **: groups features logically, helps improve search.
+ - **category**: groups features logically, helps improve search.
 
- - **use_cases **: directly match real user queries to relevant features.
+ - **use_cases**: directly match real user queries to relevant features.
 
- - ** keywords **: support keyword and semantic search.
+ - **keywords**: support keyword and semantic search.
 
- - ** feature_id ** and ** feature_name **: make it easy to show matched features in logs or UI
+ - **feature_id** and **feature_name**: make it easy to show matched features in logs or UI
 
 ✏️ 4. Agent's Core Logic & Matching Approach
 
